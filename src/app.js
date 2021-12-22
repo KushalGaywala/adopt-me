@@ -6,7 +6,7 @@ import Details from "./Details";
 import ThemeContext from "./ThemeContext";
 
 const App = () => {
-  // Using ThemeContext to use globally but not recommended
+  // Using ThemeContext to use globally but not recommende
   // which is already created
   const theme = useState("");
   // Used hooks in app for searchparams to maintain the state of the values
