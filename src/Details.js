@@ -20,7 +20,7 @@ class Details extends Component {
   // This works like useEffect takes action after the render of DOM
   async componentDidMount() {
     const res = await fetch(
-      `http://pets-v2.dev-apis.com/pets?id=${this.props.match.params.id}`
+      `https://pets-v2.dev-apis.com/pets?id=${this.props.match.params.id}`
     );
     const json = await res.json();
 
